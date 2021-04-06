@@ -46,15 +46,6 @@ li:hover a {
     color: black;
 }
 
-footer {
-    text-align: center;
-    font-size: 25px;
-}
-
-footer a {
-    text-decoration: none;
-    color: red;
-}
 
 @media (min-width: 768px) {
     ul {
