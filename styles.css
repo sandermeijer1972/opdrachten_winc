@@ -1,0 +1,57 @@
+.eerste {
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+
+.head1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-top: orange 10px solid;
+    border-bottom: orange 10px solid;
+}
+
+.foot1 {
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    text-align: right;
+    border-top: orange 10px solid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+    padding: 0;
+}
+
+li:hover {
+    background-color: orange;
+}
+
+li:hover a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
