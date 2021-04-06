@@ -54,3 +54,27 @@ footer a {
     text-decoration: none;
     color: red;
 }
+
+@media (min-width: 768px) {
+    .testimonial {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .testimonial div {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: dotted 3px black;        
+    }
+    .portfolio div {
+        margin-top: 40px;
+    }
+    .testimonial {
+        border-bottom: dotted 3px black;
+    }
+}
