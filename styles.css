@@ -1,16 +1,16 @@
 .eerste {
     background-color: black;
-    color: orange;
+    color: lime;
     text-align: center;
 }
 
 .head1 {
     font-size: 40px;
     font-weight: bold;
-    padding: 10px 0px;
+    padding: 30px 0px;
     margin: 20px 0px;
-    border-top: orange 10px solid;
-    border-bottom: orange 10px solid;
+    border-top: lime 5px solid;
+    border-bottom: lime 5px solid;
 }
 
 .foot1 {
@@ -19,7 +19,7 @@
     padding: 10px 40px;
     margin: 20px 0px;
     text-align: right;
-    border-top: orange 10px solid;
+    border-top: lime 5px solid;
 }
 
 ul {
@@ -33,29 +33,22 @@ li {
 
 li a {
     text-decoration: none;
-    font-size: 20px;
-    color: orange;
+    font-size: 22px;
+    color: lime;
     padding: 0;
 }
 
 li:hover {
-    background-color: orange;
+    background-color: lime;
 }
 
 li:hover a {
     color: black;
 }
 
-
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1024px) {
-    ul {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
